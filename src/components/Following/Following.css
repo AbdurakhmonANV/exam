@@ -1,0 +1,63 @@
+.following {
+    position: absolute;
+    left: 29.5%;
+    color: #a0a3a7;
+    margin-left: 20px;
+}
+
+.follow_wrapper {
+margin-top: 10px;
+    width: 900px;
+    height: 120px;
+    display: flex;
+    border-bottom: 0.1px solid #2a2b2c ;
+    padding: 20px 0px 0px 0;    
+}
+
+.follow_img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.follow_header {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.fName{
+    color: #a0a3a7 !important;
+}
+.follow_un {
+    display: flex;
+}
+.unfollowBtn{
+    margin-left: 10px;
+    width: 75px;
+    height: 25px;
+    color:aliceblue;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8b949e2c;
+    border-radius:5px;
+    border: 0.1px solid #8b949e7b;
+}
+.fUser{
+font-size: 14px;
+font-weight:lighter;
+color: #a0a3a779;
+}
+.loc_ico{
+    font-size: 12px;
+}
+.follow_loc{
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #a0a3a779;
+}
+a{
+    text-decoration: none;
+}

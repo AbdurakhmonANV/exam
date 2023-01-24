@@ -1,0 +1,77 @@
+
+
+
+
+.mainBottom{
+    position: absolute;
+    left: 30.5%;
+    color: #a0a3a7;
+
+}
+
+.mainBottom_header{
+    margin-top: 30px;
+}
+
+
+.box_wrapper{
+    width: 1270px;
+    height: 400px;
+    gap: 10px;
+       display: grid;
+    grid-template-columns: 440px  450px;
+    grid-template-rows: 120px 120px;
+   
+}
+.Main_box{
+    width: 440px;
+    height: 114px;
+    border: 0.1px solid #2a2b2c ;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px 15px 15px 15px;
+
+}
+.main_box_header{
+    display: flex;
+    justify-content: space-between;
+}
+.main_box_bottom{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    height: 10px;
+    display: flex;
+}
+.NavLink_repostorys{
+    text-decoration: none;
+    color: #58A6FF;
+}
+.repostory_bottom{
+    background-color: #2a2b2c00;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 12px;
+    color: #8b949e;
+    border:0.1px solid #30363d ;
+}
+.repostory_language{
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+}
+.repostory_star{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.repostory_forked{
+    font-size: 15px;
+}
+.araund{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: #2a2b2c00;
+    margin-right: 2px;
+}
