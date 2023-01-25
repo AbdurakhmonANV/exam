@@ -1,60 +1,84 @@
-.Footer{
-  margin-top: 100px;
+.Footer {
+  width: 100%;
+  margin-top: 50px;
+display: flex;
+justify-content: center;
 }
-.logo , .fath{
-    display: flex;
-    align-items: center;
+
+.logo,
+.fath {
+  margin-right: 100px;
+  color: #8b949e !important;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.toop{
+  width: 1250px;
+    border-top: 0.1px solid #2a2b2c;
+
 }
 .padFoot {
-    padding: 30px 10%;
-    border-top: solid var(--borderKini) 1px;
-    font-size: 12px;
-    justify-content: space-around;
+  padding:  50px 0 0 0;
+  border-top: solid var(--borderKini) 1px;
+  font-size: 12px;
+  justify-content: space-around;
+}
+
+.termss a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.terms,
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.terms a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.contact a {
+  color: #58a6ff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.noBlue {
+  color: var(--blacktowhite) !important;
+}
+
+.logo svg {
+  fill: #d1d5da;
+}
+
+@media (max-width: 1000px) {
+  .breskk {
+    flex-direction: column;
   }
-  .termss a {
-    color: #58a6ff;
-    text-decoration: none;
-  }
-  .terms,
-  .contact {
-    display: flex;
-    justify-content: space-around;
-  }
+
   .terms a {
     color: #58a6ff;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 5px;
   }
+
   .contact a {
     color: #58a6ff;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 5px;
   }
-  .noBlue {
-    color: var(--blacktowhite) !important;
+
+  .padFoot {
+    padding: 10px 5px;
   }
-  .logo svg {
-    fill: #d1d5da;
+
+  .logo {
+    margin: 10px 0;
   }
-  @media (max-width: 1000px) {
-    .breskk {
-      flex-direction: column;
-    }
-    .terms a {
-      color: #58a6ff;
-      text-decoration: none;
-      margin: 0 5px;
-    }
-    .contact a {
-      color: #58a6ff;
-      text-decoration: none;
-      margin: 0 5px;
-    }
-    .padFoot {
-      padding: 10px 5px;
-    }
-    .logo {
-      margin: 10px 0;
-    }
-  }
-  
+}

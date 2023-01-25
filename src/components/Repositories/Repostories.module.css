@@ -92,6 +92,11 @@ margin-left: 20px;
     display: flex;
 
 }
+.mainH{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
 .main_box_bottom{
     display: flex;
     margin-top: 20px;
@@ -107,9 +112,10 @@ margin-left: 20px;
 .repostory_bottom{
     background-color: #2a2b2c00;
     border-radius: 10px;
-    width: 70px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     font-size: 12px;
+    margin-top: 5px;
     margin-left: 10px;
     color: #8b949e;
     border:0.1px solid #30363d ;
@@ -118,10 +124,11 @@ margin-left: 20px;
     align-items: center;
     display: flex;
     font-size: 13px;
+    font-weight: 100 !important;
 }
 .repostory_star{
     border:0.1px solid #30363d ;
-    margin-left: 650px;
+    margin-left: 70%;
     width: 90px;
     height: 30px;
 border-radius: 5px;

@@ -1,7 +1,14 @@
+
+@font-face {
+    font-family: 'GitHub';
+    src: url(./assets/fonts/font/NanumGothic-ExtraBold.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'GitHub';
     list-style-type: none;
 }
+

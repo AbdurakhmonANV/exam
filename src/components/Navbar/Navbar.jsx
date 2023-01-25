@@ -9,8 +9,7 @@ import json from '../../json/data.json'
 
 
 export const Navbar = ({ user }) => {
-    // const [Github, setGithub] = useState([]);
-    // const [loading, setLoading] = useState(false);
+
     const [search, setSearch] = useState("");
 
 
@@ -44,9 +43,9 @@ export const Navbar = ({ user }) => {
         <div className={c.navbar}>
 
             <div className={c.left_header}>
-                <div>
+                <a href='https://github.com/AbdurakhmonANV'>
                     <img className={c.logo} src="https://github.githubassets.com/favicons/favicon-dark.svg" alt="" />
-                </div>
+                </a>
                 <div>
                     <form onSubmit={handleSubmit} className={c.left_header_input} action="">
                         <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Search or jump to...' type="text" />
@@ -63,24 +62,24 @@ export const Navbar = ({ user }) => {
                 <li><a href="https://github.com/explore">Explore</a> </li>
             </ul>
             <div className={c.right_header}>
-                <div>
+                <a className={c.bell} href='https://github.com/notifications'>
                     <BiBell />
-                </div>
+                </a>
                 <div>
                     <BiPlus />
                     <MdArrowDropDown />
                 </div>
                 {
-            json.map(data => {
-                return(
-                    <div>
-                    <img className={c.header_avatar} src={data.avatar_url} alt="" />
-                    <MdArrowDropDown />
-                </div>
-                )
-            })
-        }
-                
+                    json.map(data => {
+                        return (
+                            <div>
+                                <img className={c.header_avatar} src={data.avatar_url} alt="" />
+                                <MdArrowDropDown />
+                            </div>
+                        )
+                    })
+                }
+
             </div>
         </div>
     )

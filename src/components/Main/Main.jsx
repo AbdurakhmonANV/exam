@@ -42,48 +42,27 @@ const Main = () => {
                         <div className={c.box_wrapper}>
                           <div className={c.Main_box}>
                             <div className={c.main_box_header}>
-                              <NavLink className={c.NavLink_repostorys} to="https://github.com/AbdurakhmonANV/Amazon"><blockquote>{repostory.name}</blockquote></NavLink>
+                              <a className={c.NavLink_repostorys} href="https://github.com/AbdurakhmonANV/Amazon"><blockquote>{repostory.name}</blockquote></a>
                               <button className={c.repostory_bottom}>{repostory.public}</button>
                             </div>
                             <div className={c.main_box_bottom}>
                               <p className={c.repostory_language}><div className={c.araund}>.</div> {repostory.language}</p>
-                              <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
-                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div>
+                              {/* <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
+                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div> */}
                             </div>
                           </div>
                           <div className={c.Main_box}>
                             <div className={c.main_box_header}>
-                              <NavLink className={c.NavLink_repostorys} to="https://github.com/AbdurakhmonANV/Amazon"><blockquote>{repostory.name}</blockquote></NavLink>
+                              <a className={c.NavLink_repostorys} href="https://github.com/AbdurakhmonANV/exam"><blockquote>{repostory.exam}</blockquote></a>
                               <button className={c.repostory_bottom}>{repostory.public}</button>
                             </div>
                             <div className={c.main_box_bottom}>
                               <p className={c.repostory_language}><div className={c.araund}>.</div> {repostory.language}</p>
-                              <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
-                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div>
+                              {/* <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
+                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div> */}
                             </div>
                           </div>
-                          <div className={c.Main_box}>
-                            <div className={c.main_box_header}>
-                              <NavLink className={c.NavLink_repostorys} to="https://github.com/AbdurakhmonANV/Amazon"><blockquote>{repostory.name}</blockquote></NavLink>
-                              <button className={c.repostory_bottom}>{repostory.public}</button>
-                            </div>
-                            <div className={c.main_box_bottom}>
-                              <p className={c.repostory_language}><div className={c.araund}>.</div> {repostory.language}</p>
-                              <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
-                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div>
-                            </div>
-                          </div>
-                          <div className={c.Main_box}>
-                            <div className={c.main_box_header}>
-                              <NavLink className={c.NavLink_repostorys} to="https://github.com/AbdurakhmonANV/Amazon"><blockquote>{repostory.name}</blockquote></NavLink>
-                              <button className={c.repostory_bottom}>{repostory.public}</button>
-                            </div>
-                            <div className={c.main_box_bottom}>
-                              <p className={c.repostory_language}><div className={c.araund}>.</div> {repostory.language}</p>
-                              <div className={c.repostory_star}>&nbsp;  <AiOutlineStar />&nbsp;{repostory.star}</div>
-                              <div className={c.repostory_forked}>&nbsp;  <GoRepoForked />{repostory.forked}</div>
-                            </div>
-                          </div>
+                         
                         </div>
                       </div>
                     </>

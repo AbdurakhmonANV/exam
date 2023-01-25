@@ -6,6 +6,8 @@
         "following": "2",
         "repostory": [
             {
+                "exam": "exam",
+                "examUp": "Updated on Jan 24, 2023",
                 "name": "Amazon",
                 "public": "Public",
                 "language": "JavaScript",
